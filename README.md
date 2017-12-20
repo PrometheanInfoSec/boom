@@ -1,14 +1,14 @@
-#Boom
+# Boom
 
 Boom is an entirely digital deadman's switch.
 It can be used to execute script(s) from a remote host via a handheld controller.
 
-###Inventory
+### Inventory
 client.html --> A client page that can be run from any webserver.
 relay.py --> A relay server that turns one client to many servers.
 server.py --> A listener, armed on the first authenticated message.
 
-###How to
+### How to
 Host client.html somewhere.
 Host server.py (as many as you want) somewhere else.
 If you have multiple server.py, host relay.py somewhere else.
